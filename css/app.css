@@ -138,6 +138,39 @@ body {
   font-size: 2rem;
 }
 
+#page-footer {
+  background-color: #212630;
+  clear: both;
+  overflow: hidden;
+  padding: 25px 0 40px;
+  position: relative;
+  width: 100%;
+}
+
+.footer-container {
+  padding: 0 10%;
+}
+.footer-container .lego-footer {
+  color: #fffcfc;
+  font-size: 1rem;
+  font-weight: 200;
+}
+.footer-container .lego-footer .footer-wrapper {
+  cursor: pointer;
+  display: inline-block;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+.footer-link {
+  color: #fffcfc;
+  margin-right: 36px;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: #cd4b3d;
+}
+
 .nav-header {
   padding: 0 0 10px;
   background-color: #fff;
